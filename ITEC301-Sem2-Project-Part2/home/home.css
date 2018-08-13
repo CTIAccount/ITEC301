@@ -1,0 +1,137 @@
+.nav{
+	background-color: #ffffff;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0px 0px 0px;
+}
+.nav > li{
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 20px;
+}
+.nav > li > a {
+	text-decoration: none;
+	color:  #FF0000;
+	font-weight: 100;
+}
+.nav > li > a:hover{
+	color: #3CB371;
+}
+.logo{
+	color: #000000;
+	float: left;
+	padding-left: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.logo > a{
+	text-decoration: none;
+	color: #000000;
+}
+.logo > a:hover{
+    color: #c1c1c1;
+}
+.mainC{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.aboutC{
+    font-size: 30px;
+}
+.contentC{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.mainO{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.aboutO{
+    font-size: 30px;
+}
+.contentO{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.infoBox{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    margin: 50px 0px 50px 0px;
+}
+.option{
+    width: 1333px;
+    margin: auto;
+    padding-bottom: 250px;
+}
+.option-1{
+    width: 298px;
+    border: 1px solid #c1c1c1;
+    margin: 20px 10px;
+    padding: 0px 5px;
+    float: left;
+}
+.title-1{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FF0000;
+    padding: 10px 0px;
+    margin: 0 -6px;
+}
+.title-1:hover{
+	color: #000000;
+	background: #3CB371;
+}
+.image-1{
+    max-width: 200px;
+    margin: 15px 0px 0px 0px;
+}
+.image-1:hover{
+    opacity: 0.2;
+    max-width: 200px;
+    margin-top: 15px;
+}
+.image-2{
+    max-width: 200px;
+    margin: 15px 0px 0px 0px;
+}
+.image-2:hover{
+    opacity: 0.2;
+    max-width: 200px;
+    margin-top: 15px;
+}
+.image-3{
+    max-width: 200px;
+    margin: 15px 0px 0px 0px;
+}
+.image-3:hover{
+    opacity: 0.2;
+    max-width: 200px;
+    margin-top: 15px;
+}
+.image-4{
+    max-width: 200px;
+    margin: 5px 0px 0px 0px;
+}
+.image-4:hover{
+    opacity: 0.2;
+    max-width: 200px;
+    margin-top: 5px;
+}
+.footer{
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    margin: 100px 0px 10px 0px;
+}
+.contact{
+    background-color: #ffffff;
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px 0px 5px 0px;
+}
+

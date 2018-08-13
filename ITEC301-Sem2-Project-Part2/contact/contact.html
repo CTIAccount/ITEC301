@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome</title>
+		<link rel="stylesheet" type="text/css" href="/contact/contact.css">
+		<meta charset="UTF-8">
+		<meta name="Keywords" content="HTML,CSS,JS,PHP">
+	</head>
+	<body>
+		<ul class="nav">
+            <div class="logo">
+                <a href="/home/home.html"><img src="logo.jpeg"></a>
+            </div>
+            <li><a href="/home/home.html">Home</a></li>
+            <li><a href="/products/products.html">Products</a></li>
+            <li><a href="/basket/basket.html">Basket</a></li>
+            <li><a href="/profile/profile.html">Profile</a></li>
+            <li><a href="/contact/contact.html">Contact</a></li>
+        </ul>s
+		<div class="mapTitle">Where to find us:</div>
+		<div class="mapDisplay" id="googleMap"></div>
+		<div class="captureDetails">Leave your details and we will get in contact with you:</div>
+		<div  class="input" >
+    	<form action="">
+        	<table align="center">
+            	<tr><td>First name:</td><td><input type="text" id="fName"></td></tr>
+            	<tr><td>Second name:</td><td><input type="text" id="sName"></td></tr>
+            	<tr><td>Email address:</td><td><input type="email" id="emailAddress"></td></tr>
+            	<tr><td>Confirm email address:</td><td><input type="email" id="confEmail"></td></tr>
+            	<tr><td>Password:</td><td><input type="password" id="pass"></td></tr>
+            	<tr><td>Confirm password:</td><td><input type="password" id="confPass"></td></tr>
+            	<tr><td>Country:</td><td>
+                	<select>
+                	<option value="za">South Africa</option>
+                	<option value="uk">United Kingdom</option>
+                	</select>
+            	</td></tr>
+            	<tr><td>Contact number:</td><td><input type="tel" id="contactNum"></td></tr>
+            	<tr><td>Accept the T's and C's:</td><td><input type="checkbox" id="tAndC"></td></tr>
+            	<tr><td>Subscribe to your news letter:</td><td><input type="checkbox" id="sub"></td></tr>
+            	<tr><td></td><td><input type="submit" onclick="subFunction()">&nbsp;&nbsp;<input type="Reset"></td></tr>
+        	</table>
+    	</form>
+	</div>
+
+		<div class="footer">Contact details:</div>
+		<div class="contact">
+			<p>Contact number:  +27 84 234 8471</p>
+			<p>Email address:   <a href="mailto:info@pccorrect.co.za">info@pccorrect.co.za</a></p>
+			<p>Physical address:    27 Street Table View</p>
+			<p>GPS coordinates: 66.77798, Longitude: 109.67190, Distortion: 6.43</p>
+		</div>
+		<script>
+			function myMap() {
+				var mapProp= {
+					center:new google.maps.LatLng(-33.9249,18.4241),
+					zoom:10,
+				};
+				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				var marker1 = new google.maps.Marker({
+					position: new google.maps.LatLng(-33.8275,18.4948),
+					map: map,
+					label:"A",
+					title: "Blouberg branch"
+				});
+				var marker2 = new google.maps.Marker({
+					position: new google.maps.LatLng(-33.8259,18.6532),
+					map: map,
+					label:"B",
+					title: "Durbanvile branch"
+				});
+				var marker3 = new google.maps.Marker({
+					position: new google.maps.LatLng(-33.8597,18.5404),
+					map: map,
+					label:"C",
+					title: "Milnerton branch"
+				});    
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4OsgVtHIqmKQQAFPR4nSYco5YjTmYJBo&callback=myMap"></script>
+
+	</body>
+</html>

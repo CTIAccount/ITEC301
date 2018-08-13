@@ -1,0 +1,78 @@
+.nav{
+	background-color: #ffffff;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0px 0px 0px;
+}
+.nav > li{
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 20px;
+}
+.nav > li > a {
+	text-decoration: none;
+	color:  #FF0000;
+	font-weight: 100;
+}
+.nav > li > a:hover{
+	color: #3CB371;
+}
+.logo{
+	color: #000000;
+	float: left;
+	padding-left: 25px;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 300px;
+}
+.logo > a{
+	text-decoration: none;a
+	color: #000000;
+}
+.logo > a:hover{
+	color: #c1c1c1;
+}
+* {
+	box-sizing: border-box;
+}
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	height: 400px;
+	padding-top: 200px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear:
+}
+.button {
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	vertical-align: middle;
+}
+.footer{
+	padding-top: 590px;
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+	margin: 100px 0px 10px 0px;
+}
+.contact{
+	background-color: #ffffff;
+	list-style: none;
+	text-align: left;
+	font-size: 15px;
+	padding: 10px 0px 5px 0px;
+}
+

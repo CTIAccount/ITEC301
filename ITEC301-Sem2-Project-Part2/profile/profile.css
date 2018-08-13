@@ -1,0 +1,74 @@
+.nav{
+	background-color: #ffffff;
+	color: #000000;
+	list-style: none;
+	text-align: right;
+	padding: 20px 0px 0px 0px;
+	padding-bottom: 100px;
+
+}
+.nav > li{
+	display: inline-block;
+	padding: 0 25px 0 25px;
+	font-size: 20px;
+}
+.nav > li > a {
+	text-decoration: none;
+	color:  #FF0000;
+	font-weight: 100;
+}
+.nav > li > a:hover{
+	color: #3CB371;
+}
+.logo{
+	color: #000000;
+	float: left;
+	padding-left: 25px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.logo > a{
+	text-decoration: none;
+	color: #000000;
+}
+.logo > a:hover{
+	color: #c1c1c1;
+}
+.buttons_1{
+	padding-bottom: 50px;
+}
+.container{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.input{
+	padding-top: 20px;
+}
+.buttons{
+	padding-right: 200px;
+}
+.footer{
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+	margin: 100px 0px 10px 0px;
+	padding-top: 80px;
+}
+.contact{
+	background-color: #ffffff;
+	list-style: none;
+	text-align: left;
+	font-size: 15px;
+	padding: 10px 0px 5px 0px;
+}
